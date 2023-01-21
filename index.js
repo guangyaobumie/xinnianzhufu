@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|新年|快乐|^0^|');
+      S.UI.simulate('|新年|快乐|祝您|“兔”飞|猛进|前“兔”|无量|大展|宏“兔”|扬眉|“兔”气|前“兔”|无忧|^0^|');
     }
 
     S.Drawing.loop(function () {
